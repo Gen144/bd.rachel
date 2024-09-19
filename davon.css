@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8c8d0; /* Light pink background */
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  margin: 0; /* Remove default margin */
+}
+
+ h2{
+  color: black;
+  font-size: bold;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #e91e63; /* Pink color for the heading */
+  font-size: 2em; /* Responsive font size */
+}
+.slideshow {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.slides {
+  display: none;
+  width: 100%;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+.message {
+  margin: 20px 0;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+.footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a {
+  margin: 0 10px;
+  color: #e91e63; /* Pink color for icons */
+  font-size: 1.5em; /* Icon size */
+  text-decoration: none; /* Remove underline */
+}
+h3 {
+  color: blue;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 1.5em; /* Smaller font size for mobile */
+  }
+  .message {
+      font-size: 1em; /* Adjust message font size */
+  }
+}
+
